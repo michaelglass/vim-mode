@@ -1,6 +1,4 @@
 ## Overview
-
-* There are only currently two modes, command mode and insert mode.
 * Motions have repeat support, `d3w` will delete three words.
 * Insert mode can be entered using `i`, `I`, `a`, `A`, `o`, or `O`.
 * Registers are a work in progress
@@ -10,5 +8,4 @@
     * `%`   - Current filename read-only register
     * `_` - Blackhole register
   * What Doesn't Exist:
-    * default buffer doesn't yet save on delete operations.
     * `A-Z` - Appending via upper case registers
